@@ -1,0 +1,8 @@
+/api/* http://13.59.11.193:4000/posts 200!
+https://shav-vimalendiran.netlify.app/api/* http://13.59.11.193:443/posts 200!
+/AboutMe /
+/TechStack /
+/Portfolio /
+/Portfolio/Web /
+/Portfolio/Graphic /
+/Contact /

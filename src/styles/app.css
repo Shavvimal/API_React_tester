@@ -1,0 +1,47 @@
+@import "variables.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar Edit  */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* margin-right: 5px; */
+  margin: 0.5;
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(0deg, #318aff, #b633fd);
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(0deg, #f65ee6, #feab53);
+}
